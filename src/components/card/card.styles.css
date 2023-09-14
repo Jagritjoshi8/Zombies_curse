@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #6b0000; */
+  background: linear-gradient(to right, #6b0000, #1b1b1b, #000000);
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: -30px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+#clan {
+  margin-top: -20px;
+}

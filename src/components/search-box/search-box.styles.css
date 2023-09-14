@@ -1,0 +1,16 @@
+.search-box {
+  border: 1px solid grey;
+  outline: 0px;
+  padding: 10px;
+  padding-left: 37px;
+  width: 260px;
+  line-height: 25px;
+  margin-bottom: 39px;
+  margin-top: -20px;
+  background-color: #6b0000;
+  font-size: 50px;
+  color: grey;
+}
+.monsters-search-box {
+  font-family: "Bigelow Rules", cursive;
+}
